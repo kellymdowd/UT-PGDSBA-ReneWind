@@ -2,7 +2,6 @@
 _This project was completed as part of Module 6 - Model Tuning in the UT Austin Post Graduate Program in Data Science & Business Analytics._
 
 ## Problem Statement
-### Business Context
 Renewable energy sources play an increasingly important role in the global energy mix, as the effort to reduce the environmental impact of energy production increases.
 
 Out of all the renewable energy alternatives, wind energy is one of the most developed technologies worldwide. The U.S Department of Energy has put together a guide to achieving operational efficiency using predictive maintenance practices.
@@ -11,7 +10,7 @@ Predictive maintenance uses sensor information and analysis methods to measure a
 
 The sensors fitted across different machines involved in the process of energy generation collect data related to various environmental factors (temperature, humidity, wind speed, etc.) and additional features related to various parts of the wind turbine (gearbox, tower, blades, break, etc.).
 
-### Objective
+## Objective
 “ReneWind” is a company working on improving the machinery/processes involved in the production of wind energy using machine learning and has collected data of generator failure of wind turbines using sensors. They have shared a ciphered version of the data, as the data collected through sensors is confidential (the type of data collected varies with companies). Data has 40 predictors, 20000 observations in the training set and 5000 in the test set.
 
 The objective is to build various classification models, tune them, and find the best one that will help identify failures so that the generators could be repaired before failing/breaking to reduce the overall maintenance cost. The nature of predictions made by the classification model will translate as follows:
@@ -23,7 +22,7 @@ It is given that the cost of repairing a generator is much less than the cost of
 
 “1” in the target variables should be considered as “failure” and “0” represents “No failure”.
 
-### Data Description
+## Data Description
 The data provided is a transformed version of original data which was collected using sensors.
 Train.csv - To be used for training and tuning of models.
 Test.csv - To be used only for testing the performance of the final best model.
